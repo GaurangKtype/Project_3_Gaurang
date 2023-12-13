@@ -1,0 +1,13 @@
+train: G:\My Drive\Gaurang Files\TMU\Year 4\AER 850 Intro to Machine Learning\Project\Project_3_Gaurang\Project 3 Data\data\train
+val: G:\My Drive\Gaurang Files\TMU\Year 4\AER 850 Intro to Machine Learning\Project\Project_3_Gaurang\Project 3 Data\data\valid
+test: G:\My Drive\Gaurang Files\TMU\Year 4\AER 850 Intro to Machine Learning\Project\Project_3_Gaurang\Project 3 Data\data\test
+
+nc: 13
+names: ['Button', 'Capacitor', 'Connector', 'Diode', 'Electrolytic Capacitor', 'IC', 'Inductor', 'Led', 'Pads', 'Pins', 'Resistor', 'Switch', 'Transistor']
+
+roboflow:
+  workspace: spudzy-y0jgr
+  project: smd-components-grhiz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spudzy-y0jgr/smd-components-grhiz/dataset/1
